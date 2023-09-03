@@ -5,8 +5,8 @@
   <meta name="Volantis" content="6.0.0-alpha.1">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="http://example.com/archives/2023/"/>
+  
+  <link rel="canonical" href="http://example.com/2022/05/18/20220518前端手风琴/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,16 +33,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>Archive: 2023 - Miigua的博客</title>
-  <meta name="keywords" content="null">
+  <title>jQuery实现手风琴效果 - Miigua的博客</title>
+  <meta name="keywords" content="前端,js,null">
   <meta desc name="description" content="Miigua的博客 - John Doe - Miigua的博客">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Miigua的博客">
-<meta property="og:url" content="http://example.com/archives/2023/index.html">
+  
+<meta property="og:type" content="article">
+<meta property="og:title" content="jQuery实现手风琴效果">
+<meta property="og:url" content="http://example.com/2022/05/18/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4/index.html">
 <meta property="og:site_name" content="Miigua的博客">
+<meta property="og:description" content="效果展示  思路将每一个功能的功能概述和具体功能放到同一个li下，给它们设置flex布局，修改其布局，只让功能概述展示出来。然后当用户点击的时候通过使用JQuery的animate来修改其属性值实现展示具体功能的目的。  代码html12345678910111213141516171819202122232425262728293031323334353637383940414243444546">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2022-05-18T01:29:04.000Z">
+<meta property="article:modified_time" content="2023-09-03T01:51:22.477Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="js">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2052,7 +2058,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2283,7 +2289,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="l_cover">
   
     
-      <div class="cover-wrapper  search" id='half'>
+      <div class="cover-wrapper post search" id='half'>
         
 <!--   <div id="parallax-window" style='background-image: url(https://img0.baidu.com/it/u=2289446283,2987162055&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800)'></div> -->
   <div id="parallax-window" style='background: url(https://img0.baidu.com/it/u=2289446283,2987162055&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800) no-repeat;background-size:100%'></div>
@@ -2339,24 +2345,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-	
-		
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/09/02/简历/">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/18/20220518前端手风琴/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Miigua的博客">
   </span>
@@ -2365,156 +2355,258 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/09/02/%E7%AE%80%E5%8E%86/"  itemprop="url">
-        简历
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
     
-      
-        闫世豪📧 微信： ysh18263905830
-📫 邮箱： 3332831867@qq.com
-教育背景石家庄铁道大学
-2020.09——2020.06
-实习经历亚信科技（中国）有限公司
-后端开发
-2023.06——2023.08
-项目经历乐购商品抢购系统
-后端开发
-2022.09——2022.10
-项目描述：使用Nginx进行反向代理和前端资源部署，用户可以查看并参与指定抽奖活动、邀请...
-      
+    
+      <h1 class="title" itemprop="name headline">
+        jQuery实现手风琴效果
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="/static/头像.jpg" class="lazyload" data-srcset="/static/头像.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">Miigua</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  
+  
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">学习</span></a>
+      </span>
     
   </div>
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-          
-          <a class='avatar' href='/'><img src='/static/头像.jpg'></a>
-          <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="image" content="/static/头像.jpg">
-            <meta itemprop="name" content="Miigua">
-            <meta itemprop="url" content="/">
-          </span>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-09-02T16:52:56+08:00">2023-09-02</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E4%B8%AA%E4%BA%BA%E7%BB%8F%E5%8E%86/">个人经历</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E4%B8%AA%E4%BA%BA%E7%BB%8F%E5%8E%86/" itemprop="url"><span itemprop="name">个人经历</span></a>
-            </span>
+
+
+
           
         
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-05-18T09:29:04+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：May 18, 2022</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item wordcount">
+    <a class='notlink'>
+      <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
+      <p>834 words</p>
+    </a>
+  </div>
+  <div class="new-meta-item readtime">
+    <a class='notlink'>
+      <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
+      <p>4 min</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
       </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h3 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h3><p><img src="/static/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4.png" class="lazyload" data-srcset="/static/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="效果图"></p>
+<hr>
+<h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><p>将每一个功能的功能概述和具体功能放到同一个li下，给它们设置flex布局，修改其布局，只让功能概述展示出来。然后当用户点击的时候通过使用JQuery的animate来修改其属性值实现展示具体功能的目的。</p>
+<hr>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><h4 id="html"><a href="#html" class="headerlink" title="html"></a>html</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 头部 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;div_head flex&quot;</span> <span class="attr">id</span>=<span class="string">&quot;div_head&quot;</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;flex1&quot;</span> <span class="attr">style</span>=<span class="string">&quot;height: 80px;&quot;</span>&gt;</span></span><br><span class="line">                        <span class="comment">&lt;!-- 这里插入图片，做页面跳转 --&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span> <span class="attr">id</span>=<span class="string">&quot;a_1&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./index.html&quot;</span>&gt;</span>回到首页<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;flex1&quot;</span>  <span class="attr">style</span>=<span class="string">&quot;height: 80px;&quot;</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span>  <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>我的会员<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;flex1 flex&quot;</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;menuarea&quot;</span>&gt;</span></span><br><span class="line">                            <span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>预定服务<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;menuarea_bottom flex&quot;</span> <span class="attr">style</span>=<span class="string">&quot;border:1px solid;width:1000px !important;height: 200px;padding-top: 40px;&quot;</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;menuarea_bottom flex1 flex column&quot;</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;height: 80px;&quot;</span>&gt;</span></span><br><span class="line">                                            <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./book.html&quot;</span>&gt;</span>机票预订<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;flex1&quot;</span>&gt;</span></span><br><span class="line">                                            在线预订机票更方便</span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;menuarea_bottom flex1 flex column&quot;</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;height: 80px;&quot;</span>&gt;</span></span><br><span class="line">                                            <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./change.html&quot;</span>&gt;</span>机票改退<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;flex1&quot;</span>&gt;</span></span><br><span class="line">                                            在线完成航班改期，自动退票</span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;menuarea_bottom flex1 flex column&quot;</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;height: 80px;&quot;</span>&gt;</span></span><br><span class="line">                                            <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./query.html&quot;</span>&gt;</span>航班查询<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;flex1&quot;</span>&gt;</span></span><br><span class="line">                                            在线完成航班改期，自动退票</span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;menuarea_bottom flex1 flex column&quot;</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;height: 80px;&quot;</span>&gt;</span></span><br><span class="line">                                            <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>非自愿改期<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;flex1&quot;</span>&gt;</span></span><br><span class="line">                                            在线完成航班改期，自动退票</span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                                <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;flex1&quot;</span>  <span class="attr">style</span>=<span class="string">&quot;height: 80px;&quot;</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">&quot;a&quot;</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>旅行贴士<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">                    <span class="comment">&lt;!-- 这里填写代码，判断用户是否已经登录，已经登录的话就使用用户的信息 --&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;user_part&quot;</span>  <span class="attr">class</span>=<span class="string">&quot;flex&quot;</span>&gt;</span></span><br><span class="line">                            <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;./login.html&quot;</span> <span class="attr">id</span>=<span class="string">&quot;a_3&quot;</span> <span class="attr">style</span>=<span class="string">&quot;margin-left:80%&quot;</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="css"><a href="#css" class="headerlink" title="css"></a>css</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.active_head</span>&#123;</span><br><span class="line">        <span class="attribute">margin-left</span>: <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="selector-id">#acc</span> &#123;</span><br><span class="line">      <span class="attribute">width</span>: <span class="number">1400px</span>;</span><br><span class="line">      <span class="attribute">height</span>: <span class="number">300px</span>;</span><br><span class="line">      <span class="attribute">margin</span>: <span class="number">0</span> auto;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="selector-id">#acc</span> <span class="selector-tag">ul</span> &#123;</span><br><span class="line">      <span class="comment">/* border-left: 1px solid #ddd; */</span></span><br><span class="line">      <span class="attribute">margin-left</span>: <span class="number">13%</span>;</span><br><span class="line">      <span class="attribute">height</span>: <span class="number">300px</span>;</span><br><span class="line">      <span class="attribute">position</span>: relative;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="selector-id">#acc</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span> &#123;</span><br><span class="line">      <span class="attribute">width</span>: <span class="number">60px</span>;</span><br><span class="line">      <span class="attribute">height</span>: <span class="number">300px</span>;</span><br><span class="line">      <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ddd</span>;</span><br><span class="line">      <span class="attribute">float</span>: left;</span><br><span class="line">      <span class="attribute">list-style</span>: none;</span><br><span class="line">      <span class="attribute">border-left</span>: <span class="number">1px</span> solid <span class="number">#ddd</span>;</span><br><span class="line">      <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span><br><span class="line">      <span class="attribute">position</span>: relative;</span><br><span class="line">      <span class="attribute">overflow</span>: hidden;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="selector-id">#div_1</span> &#123;</span><br><span class="line">        <span class="attribute">width</span>: <span class="number">450px</span>;</span><br><span class="line">        <span class="attribute">overflow</span>:none;</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">    <span class="selector-id">#acc</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span> <span class="selector-tag">h3</span> &#123;</span><br><span class="line">      <span class="attribute">font-size</span>: <span class="number">20px</span>;</span><br><span class="line">      <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">      <span class="attribute">font-weight</span>: <span class="number">100</span>;</span><br><span class="line">      <span class="attribute">width</span>: <span class="number">60px</span>;</span><br><span class="line">      <span class="attribute">height</span>: <span class="number">300px</span>;</span><br><span class="line">      <span class="attribute">border-right</span>: <span class="number">1px</span> solid <span class="number">#ddd</span>;</span><br><span class="line">      <span class="attribute">padding-left</span>: <span class="number">20px</span>;</span><br><span class="line">      <span class="attribute">padding-top</span>: <span class="number">20px</span>;</span><br><span class="line">      <span class="attribute">padding-right</span>: <span class="number">40px</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="selector-id">#acc</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span> <span class="selector-tag">div</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">18px</span>;</span><br><span class="line">      <span class="attribute">width</span>: <span class="number">800px</span>;</span><br><span class="line">      <span class="attribute">height</span>: <span class="number">300px</span>;</span><br><span class="line">      <span class="comment">/* border-left: 1px solid ; */</span></span><br><span class="line">      <span class="comment">/* background-color: lightgray; */</span></span><br><span class="line">      <span class="attribute">position</span>: relative;</span><br><span class="line">      <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">      <span class="comment">/* border: 1px solid blue; */</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="selector-id">#acc</span> <span class="selector-tag">ul</span> <span class="selector-tag">li</span><span class="selector-class">.last</span> &#123;</span><br><span class="line">      <span class="comment">/* position: absolute; */</span></span><br><span class="line">      <span class="attribute">position</span>: relative;</span><br><span class="line">      <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">      <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="js"><a href="#js" class="headerlink" title="js"></a>js</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">&quot;#acc&quot;</span>)</span><br><span class="line">    .<span class="title function_">find</span>(<span class="string">&quot;li&quot;</span>)</span><br><span class="line">    .<span class="title function_">click</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">      $(<span class="variable language_">this</span>)</span><br><span class="line">        .<span class="title function_">stop</span>()</span><br><span class="line">        .<span class="title function_">animate</span>(&#123; <span class="attr">width</span>: <span class="string">&quot;800px&quot;</span> &#125;, <span class="number">800</span>)</span><br><span class="line">        .<span class="title function_">children</span>(<span class="string">&quot;div&quot;</span>)</span><br><span class="line">        .<span class="title function_">addClass</span>(<span class="string">&quot;active&quot;</span>)</span><br><span class="line">        <span class="comment">//end()是从h3回到li上去</span></span><br><span class="line">        .<span class="title function_">end</span>()</span><br><span class="line">        .<span class="title function_">siblings</span>() <span class="comment">//当前li的所有兄弟li</span></span><br><span class="line">        .<span class="title function_">stop</span>()</span><br><span class="line">        .<span class="title function_">animate</span>(&#123; <span class="attr">width</span>: <span class="string">&quot;50px&quot;</span> &#125;, <span class="number">800</span>)</span><br><span class="line">        .<span class="title function_">children</span>(<span class="string">&quot;div&quot;</span>)</span><br><span class="line">        .<span class="title function_">removeClass</span>(<span class="string">&quot;active&quot;</span>);</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/WU567_/article/details/106773675?ops_request_misc=%7B%22request_id%22:%22165286358916782395359150%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=165286358916782395359150&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-106773675-null-null.142%5Ev10%5Epc_search_result_control_group,157%5Ev4%5Econtrol&utm_term=jquery%E5%AE%9E%E7%8E%B0%E6%89%8B%E9%A3%8E%E7%90%B4%E6%95%88%E6%9E%9C&spm=1018.2226.3001.4187">jquery实现手风琴</a></p>
+<p>​                   </p>
+
+
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        <div>
-          <a class='readmore' href='/2023/09/02/%E7%AE%80%E5%8E%86/' itemprop="url">
-            Read More
-          </a>
-        </div>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-09-03T09:51:22+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：Sep 3, 2023</p>
+  </a>
 </div>
 
-          </div>
         
       
         
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/21/架构漫谈/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Miigua的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="Miigua的博客">
-    <meta itemprop="description" content="">
-  </span>
+          
   
   
   
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%89%8D%E7%AB%AF/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>前端</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/js/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>js</p></a></div>
+  <span hidden itemprop="keywords">前端 js</span>
+  
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2022/05/18/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4/&title=jQuery实现手风琴效果 - Miigua的博客&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2022/05/18/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4/&title=jQuery实现手风琴效果 - Miigua的博客&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2022/05/18/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4/&title=jQuery实现手风琴效果 - Miigua的博客&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+        <a class='prev' href='/2023/02/21/%E6%9E%B6%E6%9E%84%E6%BC%AB%E8%B0%88/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>架构漫谈</p>
+          <p class='content'>近几天在老师的推荐下，读了架构漫谈，《架构漫谈》是由资深架构师王概凯 Kevin 执笔的系列专栏，专栏将会以 Kevin 的架构经验为基础，逐步讨论什么是架构、怎样做好架构、软件架构如何落地、如...</p>
+        </a>
+      
+      
+    </div>
+  
+  <!-- 文章推荐 -->
+  
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
+  
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+      <meta itemprop="discussionUrl" content="/2022/05/18/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4/index.html#comments">
     </span>
-  
-  
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/21/%E6%9E%B6%E6%9E%84%E6%BC%AB%E8%B0%88/"  itemprop="url">
-        架构漫谈
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        近几天在老师的推荐下，读了架构漫谈，《架构漫谈》是由资深架构师王概凯 Kevin 执笔的系列专栏，专栏将会以 Kevin 的架构经验为基础，逐步讨论什么是架构、怎样做好架构、软件架构如何落地、如何写好程序等问题。
-什么是架构软件架构的核心目的，就是解决如何以最少的成本、最低的风险，完成系统的设计、开发和测试工作。
-软件架构师：定义和分析系统要解决的问题，制定解决方案和策略，并实施和测试这些方...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-          
-          <a class='avatar' href='/'><img src='/static/头像.jpg'></a>
-          <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="image" content="/static/头像.jpg">
-            <meta itemprop="name" content="Miigua">
-            <meta itemprop="url" content="/">
-          </span>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-21T09:30:39+08:00">2023-02-21</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/21/%E6%9E%B6%E6%9E%84%E6%BC%AB%E8%B0%88/' itemprop="url">
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
 
-</div>
+    <div id="layoutHelper-comments"></div>
 
-          </div>
-        
-      
-    
-  </section>
-  
-    
-  
+  </article>
 
 
-	
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2523,182 +2615,31 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile ">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='/static/头像.jpg'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-          <h2>Miigua</h2>
-        
-        
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="mailto:3332831867@qq.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/Miiguaa"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/%E4%B8%AA%E4%BA%BA%E7%BB%8F%E5%8E%86/" href="/categories/%E4%B8%AA%E4%BA%BA%E7%BB%8F%E5%8E%86/"
-            active-action="action-categoriesE4B8AAE4BABAE7BB8FE58E86"
-            ><div class='name'>个人经历</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%AD%A6%E4%B9%A0/" href="/categories/%E5%AD%A6%E4%B9%A0/"
-            active-action="action-categoriesE5ADA6E4B9A0"
-            ><div class='name'>学习</div><div class='badge'>(2)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/js/" style="font-size: 14px; color: #999">js</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 14px; color: #999">前端</a> <a href="/tags/%E6%9E%B6%E6%9E%84/" style="font-size: 14px; color: #999">架构</a> <a href="/tags/%E7%AE%80%E5%8E%86/" style="font-size: 14px; color: #999">简历</a> <a href="/tags/%E9%98%85%E8%AF%BB/" style="font-size: 14px; color: #999">阅读</a>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-<section class="widget desktop">
-  
-  <header>
-    
-      <i class="fa-solid fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <div class="webinfo">
-      
-        <div class="webinfo-item">
-          <div>文章数目：</div>
-          <div>3 篇</div>
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>已运行时间：</div>
-          <div id="webinfo-runtime-count"></div>
-        </div>
-      
-
-
-      
-
-      
-
-      
-        <div class="webinfo-item">
-          <div>最后活动时间：</div>
-          <div id="last-update-show">2023-09-03 日</div>
-        </div>
-      
-    </div>
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-<section class="widget desktop mobile">
-  
-  <header>
-    
-      <i class="fa-solid fa-clock WISTERIA fa-fw" aria-hidden="true"></i><span class='name'>最近更新</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/2022/05/18/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4/"><div class="item"><time>2023-09-03</time><span>学习</span></div><span>jQuery实现手风琴效果</span></a></li><li><a class="widget-last" href="/2023/02/21/%E6%9E%B6%E6%9E%84%E6%BC%AB%E8%B0%88/"><div class="item"><time>2023-09-03</time><span>学习</span></div><span>架构漫谈</span></a></li><li><a class="widget-last" href="/2023/09/02/%E7%AE%80%E5%8E%86/"><div class="item"><time>2023-09-03</time><span>个人经历</span></div><span>简历</span></a></li></ul>
-  </div>
-</section>
-
     
   
 
 
 <div class="widget-sticky">
+
+  
+  
+
+
+<section class="widget toc-wrapper desktop mobile" id="toc-div" >
+  
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+  <div class='content'>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA"><span class="toc-text">效果展示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%9D%E8%B7%AF"><span class="toc-text">思路</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81"><span class="toc-text">代码</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#html"><span class="toc-text">html</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#css"><span class="toc-text">css</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#js"><span class="toc-text">js</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-text">参考</span></a></li></ol>
+  </div>
+</section>
+
+  
 
 </div>
 
@@ -2706,6 +2647,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <!-- Custom Files side end -->
 </aside>
+
 
 
         </div>
@@ -3346,7 +3288,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Miigua的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Miigua的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/archives/","name":"Archive"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/archives/2023/","name":"2023"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Miigua的博客","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Miigua的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Miigua的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Miigua的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Miigua的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/学习/","name":"学习"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/05/18/20220518前端手风琴/","name":"jQuery实现手风琴效果"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Miigua的博客","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Miigua的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"jQuery实现手风琴效果","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/05/18/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4/"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Miigua的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/05/18/20220518%E5%89%8D%E7%AB%AF%E6%89%8B%E9%A3%8E%E7%90%B4/","wordCount":0,"datePublished":"2022-05-18T01:29:04.000Z","dateModified":"2023-09-03T01:51:22.477Z","articleSection":"学习","keywords":"前端,js","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
